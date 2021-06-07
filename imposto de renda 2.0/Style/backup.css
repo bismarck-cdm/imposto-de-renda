@@ -1,0 +1,129 @@
+*{
+    background-color: rgb(26, 126, 240) ;
+}
+form{
+    background-color: rgb(28, 77, 238);
+    border-radius: 20px;
+    border: solid black;
+    margin-top: 100px;
+}
+
+#nome{
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 15vw;
+    border: solid 2px black ;
+
+}
+
+#dependente{
+    height: 8vh;
+    margin-left: 40vw;
+    margin-top: -8vh;
+    border: solid 2px black ;
+}
+
+#salariob{
+    height: 8vh;
+    margin-top: -8vh;
+    margin-left: 70vw;
+    border: solid 2px black ;
+}
+
+#botao{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 45vw;
+    border: solid 2px black ;
+}
+
+table{
+    background-color: rgb(32, 30, 150);
+    border: solid 5px rgb(32, 30, 150);
+    margin-top: 10vh;
+    margin-right: 20%;
+    position: absolute;
+    right: -90vw;
+    height: 10vh;
+
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#titulo{
+    margin-top: 5vh;
+    height: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1025px){
+
+	*{
+		background-color: rgb(26, 126, 240) ;
+	}
+	form{
+		background-color: rgb(28, 77, 238);
+		border-radius: 40px;
+		padding-right: 120vw;
+		margin-top: 25vh;
+		margin-left: 10vw;
+		height: 22vh;
+		border: solid black;
+	}
+	
+	#nome{
+		margin-top: 2vh;
+		margin-left: 32vw;
+		height: 4vh;
+		
+	}
+	
+	#dependente{
+		height: 4vh;
+		margin-left: 32vw;
+		margin-top: 1vh;
+	
+	}
+	
+	#salariob{
+		margin-top: 1vh;
+		margin-left: 32vw;
+		height: 4vh;
+	
+	}
+	
+	#botao{
+		height: 4vh;
+		margin-top: 1vh;
+		margin-left: 32vw;
+	}
+	
+	table{
+		background-color: rgb(32, 30, 150);
+		border: solid 5px rgb(32, 30, 150);
+		margin-top: 10vh;
+		margin-right: 20%;
+		position: absolute;
+		right: -90vw;
+		height: 10vh;
+		
+	}
+	
+	::placeholder{
+		color: rgb(0, 0, 0);
+		font-size: 16px;
+	}
+	
+	h1{
+		
+		position: absolute;
+		top: 3vh;
+		left: 29vw;
+	}
+}
